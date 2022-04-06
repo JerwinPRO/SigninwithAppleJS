@@ -15,7 +15,7 @@
                         // Listen for authorization success.
             document.addEventListener('AppleIDSignInOnSuccess', (event) => {
                 // Handle successful response.
-                console.log(event.detail.data);
+                console.log(event.detail.authorization);
             });
 
             // Listen for authorization failures.
